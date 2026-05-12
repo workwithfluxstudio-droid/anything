@@ -85,7 +85,7 @@ export default function App() {
         {/* Hero Section */}
         <section className="relative overflow-hidden border-b border-black bg-white">
           <div className="max-w-7xl mx-auto px-6 py-24 md:py-48">
-            <div className="grid md:grid-template-columns-[1.5fr_1fr] gap-12 items-end">
+            <div className="grid md:grid-cols-[1.5fr_1fr] gap-12 items-end">
               <motion.div 
                 style={{ y: titleY }}
                 initial={{ opacity: 0, x: -20 }}
@@ -230,7 +230,7 @@ export default function App() {
                        ))}
                     </div>
                   </div>
-                  <ChevronRight className="w-6 h-6 opacity-0 group-hover:opacity-100 transition-opacity translate-x--4 group-hover:translate-x-0 group-hover:duration-300" />
+                  <ChevronRight className="w-6 h-6 opacity-0 group-hover:opacity-100 transition-opacity -translate-x-4 group-hover:translate-x-0 group-hover:duration-300" />
                 </motion.div>
               ))}
             </div>
